@@ -1,0 +1,62 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* padding: 5px; */
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.data-present-container {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    padding-bottom: 10px;
+    /* background: lightgray; */
+}
+
+.data-present__component {
+    border: 1px solid black;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.data-present__component:hover {
+    background-color: gray;
+}
+
+.data-present__component__arg {
+    background-color: white;
+}
+
+.data-present__component__func {
+    background-color: lightgray;
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: lightgray;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+.part-heading {
+    text-align: center;
+    margin: 4px;
+    font-size: 20px;
+    font-weight: 700;
+}
